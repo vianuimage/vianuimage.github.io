@@ -24,11 +24,9 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
-.hero .hero-image {
-    border: 5px solid black;
-}
 .hero .hero-image img {
-    width:100%;
+    width:50%;
+    transform: translateX(50%);
 }
 .hero .hero-inner {
     float: left;
@@ -40,5 +38,9 @@ body{
 @media screen and (max-width: 600px) {
     .hero .hero-inner {
         font-size: 15px;
+    }
+    .hero .hero-image img {
+        width:100%;
+        transform: translateX(0);
     }
 }
