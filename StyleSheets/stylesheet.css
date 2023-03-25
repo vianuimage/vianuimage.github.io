@@ -23,7 +23,7 @@ body{
     border-bottom-right-radius: 0;
 }
 .navbar .dreapta {
-    float:right;
+    float:left;
     border-left: 3px solid #3E4DAD
 }
 
