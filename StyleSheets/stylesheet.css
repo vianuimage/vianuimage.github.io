@@ -3,22 +3,27 @@ body{
     background-color: #FFFAEE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .column {
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
     width: 50%;
   }
 .hero {
     margin:0;
-    width: 100%;
-    padding:10px;
-    display: block;
+    height: 450px;
+    display:flex;
     align-items: center;
     background-color: #F3B82E;
     overflow: hidden;
 }
+.hero::before {
+    content:'';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
 .hero .hero-image {
-    border:5px solid black;
-    float: right;
     margin-top: auto;
 }
 .hero .hero-image img {
@@ -29,8 +34,8 @@ body{
 .hero .hero-inner {
     font-family: cursive;
     float: left;
+    font-size: 30px;
     padding-left: 0%;
     text-align: center;
     color: #1F254D;
-    border:5px solid black
 }
