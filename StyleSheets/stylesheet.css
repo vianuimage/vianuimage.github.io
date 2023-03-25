@@ -48,6 +48,7 @@ body{
 .hero .hero-image img {
     width:50%;
     float:right;
+    vertical-align: middle;
     transform: translateX(-50%);
 }
 .hero .hero-inner {
