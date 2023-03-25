@@ -17,15 +17,23 @@
     text-decoration: none;
     font-size: 30px;
     border-right: 5px solid #3E4DAD;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom: 5px solid #3E4DAD;
 }
 
 .topnav a:hover {
     background-color: #F3B82E;
     color: black;
+    border-bottom: 5px solid #F3B82E;
+    border-bottom-left-radius: 0;
 }
 
 .topnav a.active {
     background-color: #F3B82E;
+    border-bottom: 5px solid #F3B82E;
+    border-bottom-left-radius: 0;
 }
 .topnav .icon {
 display: none;
