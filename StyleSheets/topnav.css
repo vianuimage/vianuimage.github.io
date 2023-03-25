@@ -7,6 +7,7 @@
     float:right;
     border-left: 5px solid #3E4DAD;
     border-right: 0;
+    border-bottom-left-radius: 10px;
 }
 .topnav a {
     float: left;

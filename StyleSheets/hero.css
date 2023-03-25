@@ -33,3 +33,8 @@
         transform: translateX(0);
     }
 }
+.columnLogo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
