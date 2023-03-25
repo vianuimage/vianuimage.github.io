@@ -6,6 +6,7 @@
     align-items: center;
     background-color: #F3B82E;
     overflow: hidden;
+    border-bottom: 5px solid #3E4DAD;
 }
 .hero::before {
     content:'';
