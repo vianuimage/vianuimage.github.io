@@ -1,7 +1,7 @@
 .topnav {
     overflow: hidden;
     background-color: #FFFAEE;
-    font-family: cursive;
+
 }
 .topnav a.dreapta {
     float:right;
@@ -38,6 +38,7 @@
 .topnav .icon {
 display: none;
 border-left: 5px solid #3E4DAD;
+border-bottom-left-radius: 10px;
 border-right: 0;
 }
 @media screen and (max-width: 600px) {
@@ -59,7 +60,7 @@ border-right: 0;
         float: none;
         display: block;
         text-align: left;
-        border-right: 5px solid #3E4DAD;
-        border-left:0;
+        border: 2px solid #3E4DAD;
+        border-radius:10px;
     }
 }

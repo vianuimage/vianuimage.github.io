@@ -11,7 +11,7 @@ body{
   }
 .hero {
     margin:0;
-    height: 450px;
+    height: auto;
     display:flex;
     align-items: center;
     background-color: #F3B82E;
@@ -37,4 +37,9 @@ body{
     padding-left: 0%;
     text-align: center;
     color: #1F254D;
+}
+@media screen and (max-width: 600px) {
+    .hero .hero-inner {
+        font-size: 15px;
+    }
 }
