@@ -25,14 +25,10 @@ body{
     vertical-align: middle;
 }
 .hero .hero-image {
-    margin-top: auto;
-    margin:0;
+    border: 5px solid black;
 }
 .hero .hero-image img {
-    width:50%;
-    margin:0;
-    float:right;
-    transform: translateX(-50%);
+    width:100%;
 }
 .hero .hero-inner {
     float: left;
