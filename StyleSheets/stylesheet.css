@@ -43,6 +43,7 @@ body{
 .hero .hero-image {
     border:5px solid black;
     float: right;
+    vertical-align: middle;
 }
 .hero .hero-image img {
     width:50%;
