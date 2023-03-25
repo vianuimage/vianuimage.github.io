@@ -23,9 +23,33 @@ body{
     border-bottom-right-radius: 0;
 }
 .navbar .dreapta {
-    float:left;
+    float:right;
     border-left: 3px solid #3E4DAD
 }
+.navbar .icon {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar .responsive {position: relative;}
+    .navbar .responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar .responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
 
 .column {
     float: left;
@@ -43,12 +67,11 @@ body{
 .hero .hero-image {
     border:5px solid black;
     float: right;
-    vertical-align: middle;
+    margin-top: auto;
 }
 .hero .hero-image img {
     width:50%;
     float:right;
-    vertical-align: middle;
     transform: translateX(-50%);
 }
 .hero .hero-inner {
