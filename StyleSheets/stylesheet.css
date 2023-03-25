@@ -4,9 +4,18 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.pageTitle {
+    border: 5px solid #f3B82e;
+    margin:0;
+    padding: 0;
+    background-color: #F3B82E;
+}
 .row {
     display: flex;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:0;
+    margin-bottom: 0ce;
 }
 .column {
     flex: 33%;
