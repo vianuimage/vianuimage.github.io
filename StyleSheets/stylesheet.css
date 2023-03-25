@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-color: #FFFAEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+    background-color: #FFFAEE;
+    overflow: hidden;
+}
+.navbar a {
+    font-family: cursive;
+    color:#3E4DAD;
+    padding:  14px 16px;
+    text-decoration: none;
+    float:left;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.navbar .active {
+    background-color: #F3B82E;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.navbar .dreapta {
+    float:right;
+    border-left: 3px solid #3E4DAD
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+.hero {
+    margin:0;
+    width: 100%;
+    padding:10px;
+    display: block;
+    align-items: center;
+    background-color: #F3B82E;
+    overflow: hidden;
+}
+.hero .hero-image {
+    border:5px solid black;
+    float: right;
+}
+.hero .hero-image img {
+    width:50%;
+    float:right;
+    transform: translateX(-50%);
+}
+.hero .hero-inner {
+    font-family: cursive;
+    float: left;
+    padding-left: 0%;
+    text-align: center;
+    color: #1F254D;
+    border:5px solid black
+}
