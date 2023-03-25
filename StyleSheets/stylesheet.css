@@ -11,6 +11,7 @@ body{
   }
 .hero {
     margin:0;
+    padding: 10px;
     height: auto;
     display:flex;
     align-items: center;
@@ -25,15 +26,17 @@ body{
 }
 .hero .hero-image {
     margin-top: auto;
+    margin:0;
 }
 .hero .hero-image img {
     width:50%;
+    margin:0;
     float:right;
     transform: translateX(-50%);
 }
 .hero .hero-inner {
     float: left;
-    font-size: 30px;
+    font-size: 200%;
     padding-left: 0%;
     text-align: center;
     color: #1F254D;
