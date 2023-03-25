@@ -16,7 +16,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top:0;
-    margin-bottom: 0ce;
+    margin-bottom: 0;
 }
 .column {
     flex: 33%;
@@ -24,4 +24,11 @@ body{
 }
 .column img {
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
