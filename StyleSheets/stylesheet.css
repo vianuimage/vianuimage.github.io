@@ -32,7 +32,6 @@ body{
     transform: translateX(-50%);
 }
 .hero .hero-inner {
-    font-family: cursive;
     float: left;
     font-size: 30px;
     padding-left: 0%;
