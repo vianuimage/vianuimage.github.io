@@ -3,54 +3,6 @@ body{
     background-color: #FFFAEE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.navbar {
-    background-color: #FFFAEE;
-    overflow: hidden;
-}
-.navbar a {
-    font-family: cursive;
-    color:#3E4DAD;
-    padding:  14px 16px;
-    text-decoration: none;
-    float:left;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 30px;
-}
-.navbar .active {
-    background-color: #F3B82E;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.navbar .dreapta {
-    float:right;
-    border-left: 3px solid #3E4DAD
-}
-.navbar .icon {
-    display: none;
-}
-@media screen and (max-width: 600px) {
-    .navbar a:not(:first-child) {display: none;}
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
-}
-@media screen and (max-width: 600px) {
-    .navbar .responsive {position: relative;}
-    .navbar .responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navbar .responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-}
-
-
 .column {
     float: left;
     width: 50%;
