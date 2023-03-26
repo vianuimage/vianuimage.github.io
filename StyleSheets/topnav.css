@@ -1,6 +1,6 @@
 .topnav {
     overflow: hidden;
-    background-color: #FFFAEE;
+    background-color: #FFFAEE ;
 }
 .topnav a.dreapta {
     float:right;
@@ -25,7 +25,7 @@
 
 .topnav a:hover {
     background-color: #F3B82E;
-    color: black;
+    color: #1F254D;
     border-bottom: 5px solid #F3B82E;
     border-bottom-left-radius: 0;
 }
