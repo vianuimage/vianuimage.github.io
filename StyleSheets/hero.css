@@ -6,7 +6,7 @@
     align-items: center;
     background-color: #f3B82e ;
     overflow: hidden;
-    border-bottom: 5px solid #3E4DAD;
+    border-bottom: 5px solid #40B8BC;
 }
 .hero::before {
     content:'';
@@ -23,7 +23,9 @@
     font-size: 200%;
     padding-left: 0%;
     text-align: center;
-    color: #1F254D;
+    color: white;
+    font-family: 'black_mudregular', Arial, sans-serif;
+    text-shadow: -5px 3px #1F254D;
 }
 @media screen and (max-width: 600px) {
     .hero .hero-inner {

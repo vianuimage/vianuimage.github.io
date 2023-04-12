@@ -11,6 +11,7 @@
 }
 .slideshowPhotos {
     vertical-align: center;
+    width: 600px;
 }
 /* Next & previous buttons */
 .prev, .next {
