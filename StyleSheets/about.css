@@ -1,6 +1,5 @@
 .question {
-    margin-top: 30px;
-    margin-bottom: 0;
+    margin-top: 0px;
     padding: 0;
     color: #1F254D;
     font-weight: 700;
@@ -17,6 +16,7 @@
     border: 5px solid #218F94;
     border-radius: 30px;
     background-color: #40B8BC;
+    margin-bottom: 5%;
 }
 .answer p {
     color: white;

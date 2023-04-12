@@ -22,6 +22,7 @@
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0;
     border-bottom: 5px solid #40B8BC;
+    font-weight: 400;
 }
 
 .topnav a:hover {

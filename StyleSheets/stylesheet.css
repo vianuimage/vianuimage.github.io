@@ -4,6 +4,17 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    color: #40B8BC;
+    text-decoration: none;
+    font-weight: bold;
+}
+p {
+    color: #1F254D;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+}
 .pageTitle {
     border: 5px solid #f3B82e;
     margin-bottom: 2%;
