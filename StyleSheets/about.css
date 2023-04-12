@@ -29,4 +29,10 @@
     .answer p {
         text-shadow: 2px 2px #1F254D;
     }
+    .row {
+        display: block;
+    }
+    .column {
+        flex: 100%;
+    }
 }
