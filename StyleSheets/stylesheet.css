@@ -9,7 +9,15 @@ body{
     margin-bottom: 2%;
     padding: 0;
     background-color: #f3B82e;
+    font-family: 'Caveat Brush', cursive;
     border-bottom: 5px solid #40B8BC;
+}
+.pageTitle h1 {
+    color: white;
+    font-family: 'Caveat Brush', cursive;
+    text-shadow: 3px 3px #1F254D;
+    text-align: center;
+    font-size: 50px;
 }
 .row {
     display: flex;
@@ -30,5 +38,8 @@ body{
     .row {
         margin-left: 0;
         margin-right: 0;
+    }
+    .pageTitle h1 {
+        text-shadow: 2px 2px #1F254D;
     }
 }

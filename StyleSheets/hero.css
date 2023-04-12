@@ -24,11 +24,13 @@
     padding-left: 0%;
     text-align: center;
     color: white;
-    text-shadow: -5px 3px #1F254D;
+    font-family: 'Caveat Brush', cursive;
+    text-shadow: 3px 3px #1F254D;
 }
 @media screen and (max-width: 600px) {
     .hero .hero-inner {
         font-size: 15px;
+        text-shadow: 1px 1px #1F254D;
     }
     .hero .hero-image img {
         width:100%;
