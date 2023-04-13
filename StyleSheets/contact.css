@@ -1,0 +1,16 @@
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    background: #db1266;
+    margin:30px;
+    color: white;
+}
