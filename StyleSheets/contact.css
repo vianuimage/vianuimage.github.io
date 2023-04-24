@@ -1,4 +1,4 @@
-.fa {
+.ceva .fa {
     padding: 20px;
     font-size: 70px;
     width: 70px;
@@ -6,7 +6,7 @@
     text-decoration: none;
     border-radius: 50%;
 }
-.fa:hover {
+.ceva .fa:hover {
     opacity: 0.7;
 }
 .fa-instagram {
